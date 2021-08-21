@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 1.9rem  !important;
+  color:#565387;
+}
+.navbar a{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.kpp{
+  color: #1a1aff;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 48px;
+}
+.kpp1{
+  color: #1a1aff;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 30px;
+}
+.kp:hover{
+  color: #1a1aff;
+}
+.bod{
+  width: 98%;
+}
+.king{
+  border-radius: 20px;
+  border: 3px solid #1a1aff;
+  padding: 8px 15px 8px 15px;
+  color: #1a1aff;
+  font-weight: bold;
+}
+.king:hover{
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+.king1{
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+}
+
+#header{
+  width: 100%;
+  margin-top: 70px;
+}
+#header h1{
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.patil{
+  margin-left: 60px;
+  font-weight: bold;
+}
+.icon{
+  background-color: white;
+  border-radius: 50px;
+  padding:10px 15px 10px 15px;
+  color: #1a1aff;
+  border: 3px solid #1a1aff;
+}
+.icon1{
+  background-color: white;
+  border-radius: 50px;
+  margin-left: -20px;
+  padding:10px 15px 10px 15px;
+  color: #1a1aff;
+  border: 3px solid #1a1aff;
+}
+.icon2{
+  background-color: #1a1aff;
+  border-radius: 50px;
+  padding:10px 20px 10px 20px;
+  color: white;
+  border: 3px solid #1a1aff;
+}
+.social{
+  padding: 20px;
+  font-size: 28px;
+}
+.icon2:hover{
+  color: blue;
+  border: 2px solid blue;
+  background-color: white;
+  transition: 0.5s;
+}
+.icon1:hover{
+  color: crimson;
+  border: 2px solid crimson;
+  background-color: white;
+  transition: 0.5s;
+}
+.icon:hover{
+  color: crimson;
+  border: 2px solid crimson;
+  background-color: white;
+  transition: 0.5s;
+}
+.text{
+  font-weight: 700;
+  font-size: 35px;
+}
+.font{
+  font-weight: 600;
+  font-size: 20px;
+}
+.A{
+  text-align: center;
+}
+.main-box, .main-box1{
+  width: 100%;
+  height: 150px;
+  border: 1px solid silver;
+  text-align: center;
+  background-color: white;
+}
+.J{
+  font-size: 35px;
+  color: silver;
+}
+.R{
+  font-weight: bold;
+  color: silver;
+}
+.J1{
+  font-size: 35px;
+  color: silver;
+}
+.R1{
+  font-weight: bold;
+  font-size: 26px;
+  color: silver;
+}
+.B{
+  background-color: #fff;
+  padding: 20px;
+}
+.bg{
+  background-color: white;
+}
+.border{
+  border: 3px solid black;
+}
+.card-body{
+  background-color: #f2f2f2;
+}
+.pa{
+  padding: 20px;
+}
+.pi{
+  padding-top: 20px;
+}
